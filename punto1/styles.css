@@ -1,0 +1,45 @@
+.titulo{
+    font-family: Arial;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.subtitulo{
+   
+    font-family: 'Courier New';
+    text-align: center;
+}
+.parrafo{
+    text-align: center;
+    font-family: Arial;
+    
+}
+.a1{
+    text-decoration: underline;
+}
+.a2{
+    background-color: yellow;
+}
+.a3{
+    color: lightblue;
+    font-style: oblique;
+}
+.a4{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.a5{
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: oblique;
+}
+.a6{
+    font-style: oblique;
+    color: red;
+}
+.a7{
+    font-weight: bold;
+}
+.a8{
+    background-color: lightgreen;
+}

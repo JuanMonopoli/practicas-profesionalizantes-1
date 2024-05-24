@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fondo">
+    <h1 class="titulo">Formulario de encuesta</h1>
+    <form action="#" method="POST" class="formulario">
+        <div class="contenedor-formulario">
+            <table class="tabla">
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" name="nombre" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento:</td>
+                    <td><input type="text" name="fecha_nacimiento" required></td>
+                </tr>
+                <tr>
+                    <td>Rol:</td>
+                    <td>
+                        <select name="rol" required>
+                            <option value="estudiante">Estudiante</option>
+                            <option value="maestro">Maestro</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Recomendarías la carrera para otras personas?</td>
+                    <td class="response-column">
+                        <div>
+                            <input type="radio" id="recomendacion1" name="recomendacion">
+                            <label for="recomendacion1">Definitivamente</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="recomendacion2" name="recomendacion">
+                            <label for="recomendacion2">Quizas</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="recomendacion2" name="recomendacion">
+                            <label for="recomendacion2">No</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Qué es lo que mas te gusta de esta carrera?</td>
+                    <td>
+                        <select name="gusta_carrera" required>
+                            <option value="teorica">La parte teorica</option>
+                            <option value="practica">La parte practica</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Qué cosas piensas que pueden mejorarse a futuro?</td>
+                    <td class="response-column">
+                        <div>
+                            <input type="checkbox" id="mejora1" name="mejoras[]">
+                            <label for="mejora1">Trabajos prácticos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora2" name="mejoras[]">
+                            <label for="mejora2">Evaluaciones</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Tutores de catedra</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Plan de materias</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Acompañamiento a tesis</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Horarios</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Plan de correlativas</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Material de estudio</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Practicas profesionales</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">Practicas Solidarias</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="mejora3" name="mejoras[]">
+                            <label for="mejora3">inovacion</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comentario o sugerencia:</td>
+                    <td><textarea name="comentario" rows="4" cols="30"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

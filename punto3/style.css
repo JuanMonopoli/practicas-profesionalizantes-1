@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.response-column {
+    text-align: left;
+}
+
+.tabla {
+    width: 100%;
+    background-color: white;
+}
+
+.fondo {
+    background-color: blue;
+}
+
+form {
+    text-align: center; 
+}
+
+.contenedor-formulario {
+    display: inline-block; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+input[type="submit"] {
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+  
+}
